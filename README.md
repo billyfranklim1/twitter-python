@@ -6,7 +6,7 @@
 git clone https://github.com/billyfranklim1/twitter-python.git
 ```
 
-# Create account twotter developer
+# Create account twitter developer
 
 <a href="https://developer.twitter.com/">Developer twitter</a>
 
