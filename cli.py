@@ -1,4 +1,3 @@
-# posting tweet with api
 import os
 import tweepy
 from dotenv import load_dotenv
@@ -68,8 +67,7 @@ def tweet(text):
     api = Api()
     api.update_status(text)
 
-if __name__ == '__main__':
-
+def main():
     while True:
         print("1 - What's on your mind?")
         print("2 - Timeline")
@@ -100,4 +98,5 @@ if __name__ == '__main__':
         elif option == 0:
             break
 
-	
+if __name__ == "__main__":
+    main()
